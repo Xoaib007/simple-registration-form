@@ -4,7 +4,7 @@ import Form from './Form';
 
 function App() {
   return (
-    <div className='bg-black min-h-screen'>
+    <div className='bg-[#1f1717] min-h-screen'>
       <Form/>
     </div>
   );

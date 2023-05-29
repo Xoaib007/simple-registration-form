@@ -9,28 +9,28 @@ const Form = () => {
                     <label className="label">
                         <span className="label-text text-white">First Name</span>
                     </label>
-                    <input type='text' name='first name' placeholder='First Name' className="input input-bordered bg-black border-orange-500" required />
+                    <input type='text' name='first name' placeholder='First Name' className="input input-bordered bg-black border-orange-500 text-[#f9f4f4]" required />
                 </div>
 
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text text-white">Last Name</span>
                     </label>
-                    <input type='text' name='last name' placeholder='Last Name' className="input input-bordered bg-black border-orange-500" required />
+                    <input type='text' name='last name' placeholder='Last Name' className="input input-bordered bg-black border-orange-500 text-[#f9f4f4]" required />
                 </div>
 
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text text-white">Email</span>
                     </label>
-                    <input type='email' name='email' placeholder='Email Adress' className="input input-bordered bg-black border-orange-500" required />
+                    <input type='email' name='email' placeholder='Email Adress' className="input input-bordered bg-black border-orange-500 text-[#f9f4f4]" required />
                 </div>
 
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text text-white">Password</span>
                     </label>
-                    <input type='password' name='pasword' placeholder='Password' className="input input-bordered bg-black border-orange-500" required />
+                    <input type='password' name='pasword' placeholder='Password' className="input input-bordered bg-black border-orange-500 text-[#f9f4f4]" required />
                 </div>
 
                 <div className="form-control mt-3">
