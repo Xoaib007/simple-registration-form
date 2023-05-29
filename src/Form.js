@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = () => {
     return (
-        <div className='w-1/2 mx-auto py-40'>
+        <div className='lg:w-1/2 w-3/4 mx-auto py-40'>
             <h1 className="text-5xl font-semibold text-white text-center mx-auto mb-10 px-10 border-x-8 w-fit border-orange-500">Sign Up</h1>
             <form className='flex flex-col'>
                 <div className="form-control">
