@@ -37,6 +37,7 @@ const Form = () => {
                     <button type='submit' className="btn bg-orange-500 text-white rounded-none hover:bg-white hover:text-black">Sign Up</button>
                 </div>
             </form>
+            
 
         </div>
     );
