@@ -24,7 +24,7 @@ const Form = () => {
         }
 
         const user = { firstName, lastName, email, password };
-        fetch('http://localhost:5000/users', {
+        fetch('https://server-tawny-psi.vercel.app/user', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
