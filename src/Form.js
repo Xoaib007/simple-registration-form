@@ -40,7 +40,7 @@ const Form = () => {
     }
 
     return (
-        <div className='lg:w-1/2 w-3/4 mx-auto py-40'>
+        <div className='lg:w-1/2 w-3/4 mx-auto py-20'>
             <h1 className="text-5xl font-semibold text-white text-center mx-auto mb-10 px-10 border-x-8 w-fit border-orange-500">Sign Up</h1>
             <form  onSubmit={handleSignUp} className='flex flex-col'>
                 <div className="form-control">
@@ -68,7 +68,7 @@ const Form = () => {
                     <label className="label">
                         <span className="label-text text-white">Password</span>
                     </label>
-                    <input type='password' name='pasword' placeholder='Password' className="input input-bordered bg-black border-orange-500 text-[#f9f4f4]" required />
+                    <input type='password' name='password' placeholder='Password' className="input input-bordered bg-black border-orange-500 text-[#f9f4f4]" required />
                 </div>
                 
                 <div className="form-control">
